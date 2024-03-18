@@ -1,6 +1,7 @@
 
 
 *{
+   max-width: 100%;
     box-sizing: border-box;
     margin: 0;
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap')
@@ -468,20 +469,26 @@
  }
  .equipments p{
     margin-top: 5px;
+    width: 400px;
  }
  .classes p{
     margin-top: 5px;
+    width: 400px;
  }
  .trainer p{
     margin-top: 5px;
+    width: 400px;
  }
  .spa p{
+   width: 400px;
     margin-top: 5px;
  }
  .lockers p{
+   width: 400px;
     margin-top: 5px;
  }
  .outside p{
+   width: 400px;
     margin-top: 5px;
  }
  .eqp-img{
@@ -591,6 +598,7 @@
     font-size: 23;
     margin-top: 10px;
     margin-bottom: 20px;
+    text-align: center;
  }
  .footer-list{
     padding: 0;
@@ -599,6 +607,7 @@
     list-style-type: none;
  }
  .footer-container li{
+
     text-align: center;
     width: 300px;
     font-family:'Poppins', sans-serif;
@@ -606,7 +615,7 @@
  .footer-container a{
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 17px;
  }
  .footer-container a:hover{
      font-size: 20px;
@@ -619,11 +628,11 @@
  }
  .footer-content-1{
    width: 400px;
+   font-size: 17;
+  text-align: center;
  }
  .bottom-bar{
     text-align: center;
     margin-top: 70px;
     margin-left: 900px;
  }
- 
- 
